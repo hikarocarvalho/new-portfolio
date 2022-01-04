@@ -1,0 +1,109 @@
+.project-item{
+    border-bottom: 2.5px solid var(--colorSecond);
+    background-color: var(--backgroundColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 90%;
+    height: auto;
+    margin-top: 1em;
+    padding: 0;
+    padding: 1em;
+    padding-bottom: 0;
+    color: var(--fontColor);
+}
+.project-figure{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.screen-view{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.project-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+.project-title{
+    font-weight: bold;
+    font-size: 1.25em;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons{
+    width: 3em;
+    height: 3em;
+    margin: 10%;
+    filter: brightness(1) sepia(5) hue-rotate(0deg) saturate(0);
+}
+.icons:hover{
+    fill:var(--colorSecond);
+}
+svg{
+    width: 3em;
+    height: 3em;
+}
+svg:hover{
+    fill:var(--colorSecond);
+}
+.list-box{
+    width: 90%;
+    height:auto;
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-height: 96%;
+    overflow: auto;
+    padding-bottom: 2%;
+}
+.item-link{
+    width: 100%;
+}
+@media only screen and (min-width: 1000px) {
+    .project-item{
+        flex-direction: row;
+        height: 10em;
+        width: 92%;
+    }
+    .project-figure{
+        width: 25%;
+        height: 100%;
+        border-right: 2.5px solid var(--colorSecond);
+    }
+    .project-description{
+        border-right: 2.5px solid var(--colorSecond);
+        justify-content: flex-start;
+        width: 70%;
+        height: 100%;
+    }
+    .links{
+        flex-direction: column;
+        width: 5%;
+        height: 100%;
+        justify-content: center;
+    }
+    .list-box{
+        width: 100%;
+    }
+}
