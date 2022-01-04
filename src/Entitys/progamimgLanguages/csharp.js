@@ -1,0 +1,247 @@
+const csharp = [
+    {
+        name:"Basic Syntax",
+        topic:[
+            {
+                name:"Arrays",
+                checked:false
+            },
+            {
+                name:"Exceptions",
+                checked:false
+            },
+            {
+                name:"Variables",
+                checked:false
+            },
+            {
+                name:"Enums",
+                checked:false
+            },
+            {
+                name:"Namespaces",
+                checked:false
+            },
+            {
+                name:"Expressions",
+                checked:false
+            },
+            {
+                name:"Statements",
+                checked:false
+            },
+            {
+                name:"Interface",
+                checked:false
+            },
+            {
+                name:"Structs",
+                checked:false
+            },
+            {
+                name:"Classes",
+                checked:false
+            },
+            {
+                name:"Lexical Structure",
+                checked:false
+            },
+            {
+                name:"Conversions",
+                checked:false
+            },
+            {
+                name:"Attributes",
+                checked:false
+            },
+            {
+                name:"types",
+                checked:false
+            },
+            {
+                name:"Basic concepts",
+                checked:false
+            },
+            {
+                name:"Delegates",
+                checked:false
+            },
+        ]
+    },
+    {
+        name:"Basic Data Structures",
+        topic:[
+            {
+                name:"Associative Arrays",
+                checked:false
+            },
+            {
+                name:"Set",
+                checked:false
+            },
+            {
+                name:"Array",
+                checked:false
+            },
+            {
+                name:"Tree",
+                checked:false
+            },
+            {
+                name:"Queue",
+                checked:false
+            },
+            {
+                name:"Stack",
+                checked:false
+            },
+            {
+                name:"Byte",
+                checked:false
+            },
+            {
+                name:"Integer",
+                checked:false
+            },
+            {
+                name:"Bit",
+                checked:false
+            },
+            {
+                name:"String",
+                checked:false
+            },
+            {
+                name:"Boolean",
+                checked:false
+            },
+            {
+                name:"Char",
+                checked:false
+            },
+            {
+                name:"Linked List",
+                checked:false
+            },
+            {
+                name:"Record",
+                checked:false
+            },
+
+        ]
+    },
+    {
+        name:"Algorithms",
+        topic:[
+            {
+                name:"Source Code",
+                checked:false
+            },
+            {
+                name:"Interpreter",
+                checked:false
+            },
+            {
+                name:"Compiler",
+                checked:false
+            },
+            {
+                name:"Binary Search",
+                checked:false
+            },
+            {
+                name:"Quicksort",
+                checked:false
+            },
+            {
+                name:"Bubble Sort",
+                checked:false
+            },
+            {
+                name:"Task Manager",
+                checked:false
+            },
+            {
+                name:"Explorer",
+                checked:false
+            },
+        ]
+    },
+    {
+        name:"OOP",
+        topic:[
+            {
+                name:"Polymorphism",
+                checked:false
+            },
+            {
+                name:"Encapsulation",
+                checked:false
+            },
+            {
+                name:"Inheritance",
+                checked:false
+            },
+            {
+                name:"Field",
+                checked:false
+            },
+            {
+                name:"Property",
+                checked:false
+            },
+            {
+                name:"Interface",
+                checked:false
+            },
+            {
+                name:"Composition",
+                checked:false
+            },
+            {
+                name:"Class",
+                checked:false
+            },
+            {
+                name:"Object",
+                checked:false
+            },
+            
+        ]
+    },
+    {
+        name:"Computer Architecture",
+        topic:[
+            {
+                name:"Graphic Card",
+                checked:false
+            },
+            {
+                name:"Network Interface",
+                checked:false
+            },
+            {
+                name:"Random Access Memory",
+                checked:false
+            },
+            {
+                name:"GPU",
+                checked:false
+            },
+            {
+                name:"Data Storage",
+                checked:false
+            },
+            {
+                name:"Applications Software",
+                checked:false
+            },
+            {
+                name:"Operating Systems",
+                checked:false
+            },
+        ]
+    }
+];
+
+export default csharp;

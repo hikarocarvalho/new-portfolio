@@ -1,0 +1,43 @@
+
+.screen-image,.description-view{
+    display: flex;
+    width: 98%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.description-view{
+    flex-direction: column;
+    align-items: center;
+}
+.view{
+    width: 90%;
+    padding: 3%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--backgroundColor);
+    color:var(--fontColor);
+    text-align: justify;
+}
+.depends-view{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.depends-view thead th,.depends-view tbody td{
+    border-left:0.1em solid var(--colorSecond);
+    border-bottom:0.1em solid var(--colorSecond);
+}
+
+@media only screen and (min-width: 1000px) {
+    .screen-image,.description-view{
+        width: 48%;
+    }
+    .view{
+        width: 88%;
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,13 @@
+
+.language-detail{
+    width: 90%;
+    max-height: 90%;
+    overflow: auto;
+    color: var(--fontColor);
+}
+.language-detail table{
+    width: 100%;
+}
+input{
+    color: var(--fontColor);
+}
