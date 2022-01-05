@@ -5,8 +5,8 @@ import './ProjectView.css';
 export default function ProjectView(){
     const {id,stack} = useParams();
     const [project,setProject] = useState();
+   
     const getProject = ()=>{
-        const selectedProject = stack==="back-End"?projects.backEnd:stack==="front-End"?projects.frontEnd:projects.fullStack;
         let defaultProject;
         if(!project){
             defaultProject = (stack==="back-End"?projects.backEnd
@@ -26,7 +26,7 @@ export default function ProjectView(){
         <div className="page page-view">
             {project?
                 <div className="view" key={project.id}>
-                    <img className="screen-image" src={project.image}>
+                    <img className="screen-image" src={project.image} alt="screen system">
                     </img>
                     <div className="description-view">
                         <p className="title-view">
