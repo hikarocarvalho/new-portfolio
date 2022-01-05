@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from "react";
+import React,{ useState} from "react";
 import ProjectListItem from "../../components/ProjectListItem/ProjectListItem";
 import ProjectSelectBar from "../../components/ProjectsSelectBar/ProjectsSelectBar";
 import './Projects.css';
@@ -6,9 +6,9 @@ import projects from "../../Entitys/projects";
 
 export default function Projects(){
     const [viewProjects,setViewProjects] = useState({
-        view:false,
+        view:true,
         style:{},
-        projectList:{},
+        projectList:projects.fullStack,
         stack:""
     });
     const getProjects = (event)=>{
@@ -43,16 +43,16 @@ export default function Projects(){
     }
     const options = [
         {
-            name:"Back-End",
-            value:"back-End"
+            name:"Full-Stack",
+            value:"full-Stack"
         },
         {
             name:"Front-End",
             value:"front-End"
         },
         {
-            name:"Full-Stack",
-            value:"full-Stack"
+            name:"Back-End",
+            value:"back-End"
         }
     ];
     return (
