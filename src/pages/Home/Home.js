@@ -6,13 +6,17 @@ export default function Home(){
         <div className="page">
            <section className="box">
                {myself.map((item,index)=>(
-                   <p>
-                       {item}
-                       {(myself.length -1 ) !== index?
-                       
-                            <hr/>
-                       :""}
-                   </p>
+                   <article className="block">
+                        <p className="title">
+                            {item.title}
+                        </p>
+                            {item.text.map((text,index2)=>(
+                                <p className="text">
+                                    {text}
+                                </p>
+                            ))}
+                            <hr />
+                    </article>
                    
                ))}
            </section>

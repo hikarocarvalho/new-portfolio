@@ -1,7 +1,7 @@
 const python = [
     
  {
-    name:"basic",
+    name:"Basic",
     topic:[
             {
                 name:"Basic Syntax",

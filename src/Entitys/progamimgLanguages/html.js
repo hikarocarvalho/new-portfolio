@@ -1,23 +1,6 @@
 const html = [{
-        name: "HTML Tutorial",
+        name: "Basics",
         topic: [
-
-            {
-                name: "HTML HOME",
-                checked: false
-            },
-            {
-                name: "HTML Introduction",
-                checked: false
-            },
-            {
-                name: "HTML Editors",
-                checked: false
-            },
-            {
-                name: "HTML Basic",
-                checked: false
-            },
             {
                 name: "HTML Elements",
                 checked: false

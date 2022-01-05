@@ -13,10 +13,7 @@
     background-color: var(--backgroundColor);
     padding: 1em;
 }
-.box p{
-    text-indent: 50px;
-    text-justify:newspaper;
-}
+
 hr{
     border-color: var(--colorSecond);
     margin-bottom: 2em;
@@ -29,4 +26,17 @@ hr{
         width: 80%;
         
     }
+}
+.block{
+    width: 100%;
+    height: auto;
+}
+.block .title{
+    text-align: center;
+    width: 100%;
+}
+.text{
+    text-indent: 50px;
+    text-justify:newspaper;
+    text-align: justify;
 }
