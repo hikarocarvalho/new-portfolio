@@ -2,7 +2,7 @@ import React from "react";
 import TopBar from "../TopBAr/TopBar";
 import './LanguageMenu.css';
 
-export default function LanguageManu(props){
+export default function LanguageMenu(props){
    
     return (
         <TopBar>

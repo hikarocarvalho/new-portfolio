@@ -6,7 +6,6 @@ export default function LanguageDetail(props){
     useEffect(()=>{
         setLanguage(props.language);
     },[props.language.name])
-    console.log(language)
     return (
         <div className="language-detail">
             <table>
@@ -25,9 +24,9 @@ export default function LanguageDetail(props){
                                 {
                                     language.roadmap.map((item,index)=>(
                                         
-                                        <li>
+                                        <li key={index}>
                                             <label >
-                                                <input key={index} type="checkbox" value={item.name} />
+                                                <input type="checkbox" value={item.name} />
                                                 {item.name}
                                             </label>
                                             <ul>
