@@ -5,7 +5,7 @@ import './ProjectsSelectBar.css';
 export default function ProjectSelectBar(props){
     return (
         <TopBar>
-            Select one Stack: 
+            Stack: 
             <Select onChange={props.selectAction} options={props.options}>
 
             </Select>

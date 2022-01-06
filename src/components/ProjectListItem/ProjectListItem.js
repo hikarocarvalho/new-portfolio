@@ -1,12 +1,26 @@
-import React from "react";
+import React,{ useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import './ProjectListItem.css';
 import github from './../../imgs/github-logo_icon-icons.com_73546.svg';
 import video from './../../imgs/film_projector_cinema_icon-icons.com_66132.svg';
 export default function ProjectListItem(props){
+    const [itemList,setItem] = useState({
+        items:props.projectList,
+        stack:props.stack
+    });
+    let data = JSON.stringify({
+        items:props.projectList,
+        stack:props.stack
+    });
+    useEffect(()=>{
+        setItem({
+            items:props.projectList,
+            stack:props.stack
+        })
+    },[data]);
     return (
         <div className="list-box">
-            {props.projectList.map((item,index)=>(
+            {itemList.items.map((item,index)=>(
                 <NavLink to={"/project/"+item.id+"/"+props.stack} key={index} className="project-item">
                    
                         <figure className="project-figure">
