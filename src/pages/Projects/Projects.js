@@ -9,7 +9,7 @@ export default function Projects(){
         view:true,
         style:{},
         projectList:projects.fullStack,
-        stack:""
+        stack:"full-Stack"
     });
     const getProjects = (event)=>{
         if(event.target.value === "back-End"){
