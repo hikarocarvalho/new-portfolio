@@ -62,6 +62,21 @@ const br ={
 
         }
     },
+    LearningPlay:{
+        menu:{
+            options:{
+                option1:"Sobre Mim",
+                option2:"Projetos",
+                option3:"Tecnologias",
+                option4:"Aprendendo",
+                option5:"Voltar",
+                option6:"Mudar Idioma"
+            }
+        },
+        page:{
+
+        }
+    },
     NotFound:{
         menu:{
             options:{
