@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink,useNavigate  } from "react-router-dom";
+import Contact from '../Contact/Contact';
 import photoPerfil from './../../imgs/photo.png';
 import './MenuBar.css';
 
@@ -27,6 +28,7 @@ export default function MenuBar(props){
                         
                     ))}
                 </nav>
+                <Contact />
             </div>
         </div>
     );

@@ -19,16 +19,30 @@
     justify-content: center;
     align-items: center;
     background-color: var(--colorSecond);
-    width: 48%;
+    width: 100%;
     margin: 1%;
     height: auto;
     box-shadow: 0px 0px 3px 2px var(--disable);
+    margin: 0;
+    padding: 0;
 }
 .topics-item p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    margin: 0;
+    padding: 0;
     color: var(--fontColor);
 }
 .topic-folder{
     box-shadow: 0px 1px 2px 1px var(--disable);
     width: 100%;
     height: auto;
+}
+@media only screen and (min-width: 1000px) {
+    .topics-item{
+        width: 48%;
+    }
 }
