@@ -19,12 +19,12 @@ export default function Learning(){
         setDefaultLanguage(defaultLanguage);
     }
     useEffect(()=>{
-    },[])
+    },[]);
     return (
         <div className="page">
             <LanguageMenu click={getSelected} languages={programingLanguages}/>
             {language?
-                    <Topics />
+                    <Topics topics={language.topics} technologie={language.name} />
                 :
                     ""
             }
