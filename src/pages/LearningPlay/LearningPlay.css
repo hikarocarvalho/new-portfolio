@@ -1,0 +1,22 @@
+.learning-play{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    margin-top: 5em;
+    height: auto;
+}
+@media only screen and (min-width: 1000px) {   
+    .learning-play{
+        flex-direction:row;
+        width: 80%;
+        position: absolute;
+        margin-top: 0;
+    }
+}

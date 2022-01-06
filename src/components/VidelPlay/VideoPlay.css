@@ -1,0 +1,16 @@
+.video-player{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%;
+    height:30%;
+    margin: 5%;
+    background-color: var(--backgroundColor);
+}
+@media only screen and (min-width: 1000px) {
+    .video-player{
+        width: 60%;
+        height:60%;
+    }
+}
