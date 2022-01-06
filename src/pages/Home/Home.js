@@ -11,11 +11,15 @@ export default function Home(){
                             {item.title}
                         </p>
                             {item.text.map((text,index2)=>(
-                                <p className="text">
+                                <p className="text" key={index2}>
                                     {text}
                                 </p>
                             ))}
-                            <hr />
+                            {index!==myself.length-1?
+                                <hr />
+                            :
+                                ""
+                            }
                     </article>
                    
                ))}
