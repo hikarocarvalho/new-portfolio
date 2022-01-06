@@ -156,6 +156,45 @@ const MenuOptionsConfig = {
 
         }
     }),
+    LearningPlay:(lang)=>({
+        menu:{
+            options:[
+                {
+                    route:"/",
+                    text:lang.option1,
+                    icon:""
+                },
+                {
+                    route:"/projects",
+                    text:lang.option2,
+                    icon:""
+                },
+                {
+                    route:"/technologies",
+                    text:lang.option3,
+                    icon:""
+                },
+                {
+                    route:"/learning",
+                    text:lang.option4,
+                    icon:""
+                },
+                {
+                    route:"",
+                    text:lang.option5,
+                    icon:""
+                },
+                {
+                    route:"changeLanguage",
+                    text:lang.option6,
+                    icon:""
+                }
+            ]
+        },
+        page:{
+
+        }
+    }),
     NotFound:(lang)=>({
         menu:{
             options:[

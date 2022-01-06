@@ -7,12 +7,11 @@ export default function Topics(props){
     useEffect(()=>{
         setTopics(props.topics);
     },[]);
-    console.log(topics)
     return (
         <section className="topics-box">
             {topics?
                 (topics.map((item,index)=>(
-                    <NavLink to={""} className="topics-item" key={index}>
+                    <NavLink to={"/learning/play/"+item.id+"/"+props.technologie} className="topics-item" key={index}>
                         <img className="topic-folder" src={item.folder} alt="topic" />
                         <p>{item.name}</p>
                         <p>{item.description}</p>
