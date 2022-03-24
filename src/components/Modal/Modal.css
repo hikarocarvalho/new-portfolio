@@ -1,0 +1,26 @@
+.modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.close-modal{
+    color: var(--colorSecond);
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 1%;
+    padding-top: 1%;
+    width: 44%;
+    background-color: black;
+
+}

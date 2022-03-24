@@ -1,0 +1,32 @@
+.page{
+    height: 100%;
+    max-height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.technologie{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 0px) {
+    .technologie{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 480px) {
+
+}
+@media screen and (min-width: 768px) {
+
+}
+@media screen and (min-width: 1024px) {
+    .technologie{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}

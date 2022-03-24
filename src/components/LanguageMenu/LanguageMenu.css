@@ -1,0 +1,115 @@
+.language_bar{
+    width: 20%;
+    padding: 0;
+    display: flex;
+    border-radius: 5px 0px 0px 5px;
+    background-color: var(--colorSecond);
+    box-shadow: 0px 0px 2px 0.1px rgba(255, 255, 255, 0.616);
+    min-height: 70%;
+    margin: 0;
+}
+.language-menu{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+.language-options{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.language-option{
+    width: 100%;
+    color: var(--fontColor);
+    margin: 0;
+    padding: 0;
+    height: 2.1em;
+    border: none;
+    background-color: var(--colorFirst);   
+    cursor: pointer;
+}
+.language-option button{
+        background-color: transparent;
+        border:none;
+        color: var(--fontColor);
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+}
+.language-option:hover{
+    background-color: var(--disable);
+    box-shadow: 0px 0px 2px 0.1px black;
+}
+@media screen and (min-width: 0px) {
+    .language_bar{
+        top: 0;
+        left: 0;
+        padding: 0;
+        min-width: 65%;
+        max-width: 65%;
+        min-height: auto;
+        height: auto;
+        padding-left:20%;
+        padding-right: 20%;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .language-options{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .language-option{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 480px) {
+   
+}
+@media screen and (min-width: 768px) {
+
+}
+@media screen and (min-width: 1024px) {
+    .technologie .language_bar{
+        position: relative;
+        align-items: center;
+        min-width: 20%;
+        max-width: 20%;
+        min-height: 70%;
+        padding: 0;
+    }
+    .technologie .language-options{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .technologie .language-option{
+        width: 100%;
+    }
+    .learning .language_bar{
+        min-width: 100%;
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .learning .language-options{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .learning .language-option{
+        width: 10%;
+    }
+}

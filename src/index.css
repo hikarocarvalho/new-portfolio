@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,51 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+.App{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+#root,.App,html,body{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+:root{
+  --backgroundColor:#ffffff;
+  --disable:#e0dfe5;
+  --colorFirst:#ffe28c;
+  --colorSecond:#fe8007;
+  --fontColor:#000000;
+
+  --lightBk:#ffffff;
+  --lightDisable:#e0dfe5;
+  --lightColorFirst:#ffe28c;
+  --lightColorSecond:#fe8007;
+  --lightFontColor:#000000;
+
+  --darkBk:#1d1c21;
+  --darkDisable:#313139;
+  --darkColorFirst:#4e6d41;
+  --darkColorSecond:#238204;
+  --darkFontColor:#ffffff;
+}
+body{
+  background-color: var(--disable);
+  max-width: 98%;
+}
+@media only screen and (min-width: 1000px) {
+  body{
+    max-width: 99.9%;
+  }
 }

@@ -1,0 +1,42 @@
+.page{
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 90%;
+    color: var(--fontColor);
+    overflow: auto;
+    background-color: var(--backgroundColor);
+    padding: 1em;
+}
+
+hr{
+    border-color: var(--colorSecond);
+    margin-bottom: 2em;
+}
+@media only screen and (min-width: 1000px) {
+    .box{
+        width: 90%;
+    }
+    .page{
+        width: 80%;
+        
+    }
+}
+.block{
+    width: 100%;
+    height: auto;
+}
+.block .title{
+    text-align: center;
+    width: 100%;
+}
+.text{
+    text-indent: 50px;
+    text-justify:newspaper;
+    text-align: justify;
+}
