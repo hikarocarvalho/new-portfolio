@@ -22,7 +22,7 @@ export default function MenuBar(props){
                             option.route==="changeLanguage"?
                                 <div className="change-language-menu" onClick={props.showChangeLanguage} key={index}>{option.text}</div>
                             :
-                            <NavLink className={option.icon} to={option.route} key={index}>{option.text}</NavLink>
+                            <NavLink className={option.icon} to={option.route} key={index} onClick={props.close} >{option.text}</NavLink>
                         :
                             <div className="turn-back" key={index} onClick={turnBack}>{option.text}</div>
                         

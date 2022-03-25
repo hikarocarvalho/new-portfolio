@@ -3,6 +3,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
+  height: auto;
 }
 .page{
   transition-duration: 1s;
@@ -11,6 +12,7 @@
   padding: 0;
   display: flex;
   width: 100%;
+  height: auto;
   position: absolute;
   right: 0;
   top: 0;
@@ -25,6 +27,7 @@
 @media only screen and (min-width: 1000px) {
   .page{
     width: 80%;
+    height: auto;
   }
 }
 .dark-theme{

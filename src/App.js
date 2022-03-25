@@ -48,7 +48,14 @@ function App() {
       return "";
     }
   }
-  useEffect(()=>{
+  function detectMob() {
+    if(window.innerWidth < 1000){
+      return true;
+    }
+    return false;
+}
+
+    useEffect(()=>{
     const cookie = verifyTheme;
     if(cookie === ""){
       document.cookie = "theme=light;";
@@ -87,6 +94,7 @@ function App() {
   },[lang]);
   const [hide,setHide] = useState({});
   const mobileSetHide = ()=>{
+    if(detectMob()){
     if(JSON.stringify(hide)===JSON.stringify({})){
       setHide({
         width:0,
@@ -96,13 +104,13 @@ function App() {
     }else{
       setHide({});
     }
-  }
+  }}
   return (
     <div className="App">
       <i className="bi bi-list menu-icon" onClick={mobileSetHide}></i>
       <button onClick={setDark} className='dark-theme'></button>
       <Router>
-        <MenuRoutes lang={language} showChangeLanguage={showModal} style={hide}/>
+        <MenuRoutes close={mobileSetHide} lang={language} showChangeLanguage={showModal} style={hide}/>
         <PageRoutes lang={language} />
         {show?
         <ChangeLanguage setLanguage={setLang} closeModal={showModal} />

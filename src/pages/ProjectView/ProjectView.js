@@ -1,5 +1,6 @@
 import React, { useState,useEffect } from "react";
 import { useParams } from "react-router-dom";
+import VideoPlay from "../../components/VidelPlay/VideoPlay";
 import projects from "../../Entitys/projects";
 import './ProjectView.css';
 export default function ProjectView(){
@@ -15,7 +16,7 @@ export default function ProjectView(){
         }
         for(let count=0;count<defaultProject.length;count++){
             if(defaultProject[count].id === parseInt(id)){
-                setProject(defaultProject[count]);
+                setProject({...project,...defaultProject[count]});
             }
         }
     };
@@ -26,8 +27,7 @@ export default function ProjectView(){
         <div className="page page-view">
             {project?
                 <div className="view" key={project.id}>
-                    <img className="screen-image" src={project.image} alt="screen system">
-                    </img>
+                    <VideoPlay videoLink={project.video}></VideoPlay>
                     <div className="description-view">
                         <p className="title-view">
                             {project.name}

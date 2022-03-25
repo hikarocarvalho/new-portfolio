@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     width: 102%;
+    height: auto;
     transition-duration: 1s;
 }
 .menu{
@@ -17,6 +18,7 @@
     justify-content: flex-start;
     align-items: center;
     width: 100%;
+    height: auto;
     background-color: var(--backgroundColor);
     color: var(--colorSecond);
     font-weight: bold;
@@ -85,7 +87,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    margin: 2%;
+    margin: 0;
     z-index: 6;
     cursor: pointer;
 }
@@ -96,9 +98,11 @@
     .menu-bar{
         display: flex;
         width: 20%;
+        height: auto;
     }
     .menu{
         display: flex;
+        height: auto;
 
     }
     .menu-icon{
