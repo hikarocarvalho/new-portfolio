@@ -8,7 +8,7 @@ const projectsFullStack = [
         description:"This project have front-end(React js) and back-end(node)",
         github:"https://github.com/hikarocarvalho/module-03-final-project",
         github2:"https://github.com/hikarocarvalho/module-03-node-final-project",
-        video:"https://www.youtube.com/embed/zh-Pxq-0sKE",
+        video:"https://www.youtube.com/embed/Gbt9JnNDh20",
         link:"",
         dependency:[
             {
@@ -22,7 +22,7 @@ const projectsFullStack = [
         ]
     },
     {
-        id:1,
+        id:2,
         name:"Projeto Pet-sister",
         image:petSister,
         description:"Este projeto visa encontrar um cuidador disponivel para seu pet quando necessário!",

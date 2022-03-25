@@ -2,6 +2,7 @@ import smile from "../../imgs/frontEnd/humor.png";
 import calculator from "../../imgs/frontEnd/calculator.png";
 import timer from "../../imgs/frontEnd/timer.png";
 import css3d from "../../imgs/frontEnd/css3d.png";
+import egypt from "../../imgs/frontEnd/egypt.png";
 const projectsFrontEnd = [
     {
         id:1,
@@ -92,6 +93,29 @@ const projectsFrontEnd = [
             {
                 name:"Javascript",
                 use:"Usado na manipulação do dom"
+            }
+        ]
+    },
+    {
+        id:5,
+        name:"Documentários do Egito",
+        image:egypt,
+        description:"Este projeto é referente a um site repositório de documentários Egípcios",
+        github:"https://github.com/hikarocarvalho/Project_Egipt_documentarys",
+        video:"https://www.youtube.com/embed/SRBGOze1KTw",
+        link:"",
+        dependency:[
+            {
+                name:"React",
+                use:"Usado no frontEnd"
+            },
+            {
+                name:"Css",
+                use:"Usado na estrutura para estilização"
+            },
+            {
+                name:"Javascript",
+                use:"Usado na linguagem base"
             }
         ]
     }
