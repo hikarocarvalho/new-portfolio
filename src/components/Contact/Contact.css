@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0;
     font-size: 0.8em;
-    margin-bottom: 2em;
+    margin-bottom: 0.5em;
 }
 .contacts ul{
     margin: 0;
@@ -43,4 +43,8 @@
 .icons a{
     width: 2em;
     height: fit-content;
+}
+.contacts li,.contacts li p{
+    margin: 0;
+    padding: 0;
 }
