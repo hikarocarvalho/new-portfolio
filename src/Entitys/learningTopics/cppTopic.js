@@ -7,13 +7,10 @@ const cppTopic = [
         description:"",
         playList:[
             {
-                name:"video1",
-                link:"https://www.youtube.com/embed/J1tmao-QXc0"
+                name:"",
+                link:""
             },
-            {
-                name:"video2",
-                link:"https://www.youtube.com/embed/XqepZnGA09Q"
-            }
+          
         ]
     }
 ];
