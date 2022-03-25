@@ -6,7 +6,6 @@ import './ProjectView.css';
 export default function ProjectView(){
     const {id,stack} = useParams();
     const [project,setProject] = useState();
-   
     const getProject = ()=>{
         let defaultProject;
         if(!project){

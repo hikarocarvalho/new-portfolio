@@ -31,7 +31,10 @@
     border-left:0.1em solid var(--colorSecond);
     border-bottom:0.1em solid var(--colorSecond);
 }
-
+.page-view iframe{
+    width: 100%;
+    height: 250px;
+}
 @media only screen and (min-width: 1000px) {
     .screen-image,.description-view{
         width: 48%;
@@ -39,6 +42,10 @@
     .view{
         width: 88%;
         flex-direction: row;
+    }
+    .page-view iframe{
+        width: 60%;
+        height:100%;
     }
 }
 .App>.page-view{

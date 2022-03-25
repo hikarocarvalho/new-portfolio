@@ -1,4 +1,8 @@
-import systemToVotes from '../../imgs/projects/back_end.png';
+import systemToVotes from '../../imgs/backEnd/back_end.png';
+import interativeGame from '../../imgs/backEnd/interativeGame.png';
+import detetive from "../../imgs/backEnd/detetive.png";
+import dados from "../../imgs/backEnd/dados.png";
+import jokenpo from "../../imgs/backEnd/jokenpo.png";
 const projectsBackEnd = [
     {
         id:1,
@@ -6,8 +10,72 @@ const projectsBackEnd = [
         image:systemToVotes,
         description:"Neste Projeto Foi construido como um jogo de contagem de votação",
         github:"https://github.com/hikarocarvalho/Blue_Module_01/blob/main/projetos/Projeto_04_Simulador_de_Votacao.py",
-        video:"https://youtu.be/KfrmZBAGzUQ",
+        video:"https://www.youtube.com/embed/KfrmZBAGzUQ",
         link:"https://github.com/hikarocarvalho/Blue_Module_01/blob/main/projetos/Projeto_04_Simulador_de_Votacao.py",
+        dependency:[
+            {
+                name:"Python",
+                use:"Usado como linguagem do projeto"
+            }
+        ]
+    },
+    {
+        id:2,
+        name:"Jogo Interativo",
+        image:interativeGame,
+        description:"Neste Projeto Foi construido como um jogo de Terror e suspense",
+        github:"https://github.com/hikarocarvalho/ProjetoBlue_05",
+        video:"https://www.youtube.com/embed/fYt06-tc6mg",
+        link:"https://github.com/hikarocarvalho/ProjetoBlue_05",
+        dependency:[
+            {
+                name:"Python",
+                use:"Usado como linguagem do projeto"
+            },
+            {
+                name:"PyGame",
+                use:"Usado pada adicionar sons ao game"
+            }
+        ]
+    },
+    {
+        id:3,
+        name:"Detetive",
+        image:detetive,
+        description:"Neste Projeto Foi construido um cosole game onde suas escolhas levam ao culpado",
+        github:"https://github.com/hikarocarvalho/Blue_Module_01/blob/main/projetos/Projeto_01_%E2%80%93_Detetive.ipynb",
+        video:"https://www.youtube.com/embed/P_NrJzLgV8A",
+        link:"",
+        dependency:[
+            {
+                name:"Python",
+                use:"Usado como linguagem do projeto"
+            }
+        ]
+    },
+    {
+        id:4,
+        name:"Roleta de dados",
+        image:dados,
+        description:"Neste Projeto Foi construido um cosole game onde os jogadores competem com o rolar de dados",
+        github:"https://github.com/hikarocarvalho/Blue_Module_01/blob/main/projetos/Projeto_03_Roleta_de_dados_final.py",
+        video:"https://www.youtube.com/embed/eajNWVK5eQo",
+        link:"",
+        dependency:[
+            {
+                name:"Python",
+                use:"Usado como linguagem do projeto"
+            }
+        ]
+    },
+    {
+        id:5,
+        name:"Jokenpô",
+        image:jokenpo,
+        description:"Neste Projeto Foi construido um cosole game onde é possivel jogar pedra, papel e tesoura: contra o computador",
+        github:"https://github.com/hikarocarvalho/Blue_Module_01/blob/main/projetos/Projeto_02_jogo_Jokenpo.py",
+        video:"https://www.youtube.com/embed/kOi3qBlhwZE",
+        link:"",
         dependency:[
             {
                 name:"Python",
