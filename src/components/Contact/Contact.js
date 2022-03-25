@@ -19,7 +19,7 @@ export default function Contact(){
                         <img src={linkedin} className="icon" />
                     </a>
                 </li>
-            
+                    <p>&copy; Todos direitos reservados</p>
                 </li>
             </ul>
         </div>
