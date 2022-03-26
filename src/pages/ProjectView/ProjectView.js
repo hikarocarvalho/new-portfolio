@@ -1,17 +1,16 @@
 import React, { useState,useEffect } from "react";
 import { useParams } from "react-router-dom";
 import VideoPlay from "../../components/VidelPlay/VideoPlay";
-import projects from "../../Entitys/projects";
 import './ProjectView.css';
-export default function ProjectView(){
+export default function ProjectView(props){
     const {id,stack} = useParams();
     const [project,setProject] = useState();
     const getProject = ()=>{
         let defaultProject;
         if(!project){
-            defaultProject = (stack==="back-End"?projects.backEnd
-            :stack==="front-End"?projects.frontEnd
-            :projects.fullStack)
+            defaultProject = (stack==="back-End"?props.lang.backEnd
+            :stack==="front-End"?props.lang.frontEnd
+            :props.lang.fullStack)
         }
         for(let count=0;count<defaultProject.length;count++){
             if(defaultProject[count].id === parseInt(id)){

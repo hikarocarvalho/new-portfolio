@@ -13,7 +13,7 @@ export default function PageRoutes(props){
         <Routes>
             <Route path="/" element={<Home lang={props.lang.Home.page}/>}></Route>
             <Route path="/projects" element={<Projects lang={props.lang.Projects.page} />}></Route>
-            <Route path="/project/:id/:stack" element={<ProjectView lang={props.lang.ProjectView.page} />}></Route>
+            <Route path="/project/:id/:stack" element={<ProjectView lang={props.lang.Projects.page} />}></Route>
             <Route path="/technologies" element={ <Technologies lang={props.lang.Technologies.page} />}></Route>
             <Route path="/learning" element={<Learning lang={props.lang.Learning.page} />}></Route>
             <Route path="/learning/play/:id/:technologie" element={<LearningPlay lang={props.lang.LearningPlay.page} />}></Route>
