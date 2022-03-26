@@ -60,7 +60,7 @@ export default function Projects(props){
             projectList:props.lang.fullStack,
             stack:"full-Stack"
         })
-    },[props.lang,viewProjects])
+    },[props.lang])
     return (
         <div className="page">
             {viewProjects?
