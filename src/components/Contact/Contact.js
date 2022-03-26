@@ -11,12 +11,12 @@ export default function Contact(){
                     <li>hikarofcarvalho@gmail.com</li>
                 <li className="icons">
                     
-                    <a href="https://github.com/hikarocarvalho" target="_blank" >
-                        <img src={github} className="icon" />
+                    <a href="https://github.com/hikarocarvalho" target="_blank" rel="noreferrer">
+                        <img src={github} className="icon" alt="github icon"/>
                     </a>
 
-                    <a href="https://www.linkedin.com/in/hikaro-fernandes-de-carvalho/" target="_blank" >
-                        <img src={linkedin} className="icon" />
+                    <a href="https://www.linkedin.com/in/hikaro-fernandes-de-carvalho/" target="_blank" rel="noreferrer">
+                        <img src={linkedin} className="icon" alt="linkedin icon"/>
                     </a>
                 </li>
                     <p>&copy; Todos direitos reservados</p>

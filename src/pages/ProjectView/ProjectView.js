@@ -5,7 +5,7 @@ import './ProjectView.css';
 export default function ProjectView(props){
     const {id,stack} = useParams();
     const [project,setProject] = useState();
-    const getProject = ()=>{
+    useEffect(()=>{
         let defaultProject;
         if(!project){
             defaultProject = (stack==="back-End"?props.lang.backEnd
@@ -17,10 +17,7 @@ export default function ProjectView(props){
                 setProject({...project,...defaultProject[count]});
             }
         }
-    };
-    useEffect(()=>{
-        getProject();
-    },[])
+    },[props.lang])
     return (
         <div className="page page-view">
             {project?

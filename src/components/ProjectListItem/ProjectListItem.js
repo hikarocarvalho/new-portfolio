@@ -11,7 +11,7 @@ export default function ProjectListItem(props) {
       items: props.projectList,
       stack: props.stack,
     });
-  }, [props.projectList]);
+  }, [props.projectList,props.stack,itemList,setItem]);
   return (
     <div className="list-box">
       {itemList
@@ -32,12 +32,12 @@ export default function ProjectListItem(props) {
               </NavLink>
               <footer className="links">
                 <i>
-                  <a href={item.github}>
+                  <a href={item.github} target="_blank" rel="noreferrer">
                     <img className="icons" src={github} alt="icon" />
                   </a>
                 </i>
                 <i>
-                  <a href={item.video}>
+                  <a href={item.video} target="_blank" rel="noreferrer">
                     <img className="icons" src={video} alt="icon" />
                   </a>
                 </i>

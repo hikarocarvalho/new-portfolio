@@ -11,7 +11,7 @@ export default function VideoPlay(props){
             className="video-player" 
             src={videoLink} 
             title="YouTube video player" 
-            frameborder="0" 
+            frameBorder="0" 
             allow="
                 accelerometer; 
                 autoplay; 
@@ -19,7 +19,7 @@ export default function VideoPlay(props){
                 encrypted-media; 
                 gyroscope; 
                 picture-in-picture" 
-            allowfullscreen
+            allowFullScreen
         >
 
         </iframe>
