@@ -1,5 +1,6 @@
 import myself from "../Entitys/myself";
 import programingLanguages from "../Entitys/programingLangages";
+import projects from "../Entitys/projects";
 const en ={
     Home:{
         menu:{
@@ -25,7 +26,7 @@ const en ={
                 option6:"Change Language"
             }
         },
-        page:{}
+        page:projects.en
     },
     ProjectView:{
 

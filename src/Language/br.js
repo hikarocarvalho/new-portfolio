@@ -1,5 +1,6 @@
 import myself from "../Entitys/myself";
 import programingLanguages from "../Entitys/programingLangages";
+import projects from "../Entitys/projects";
 const br ={
     Home:{
         menu:{
@@ -25,9 +26,7 @@ const br ={
                 option6:"Mudar Idioma"
             }
         },
-        page:{
-
-        }
+        page:projects.br
     },
     ProjectView:{
 

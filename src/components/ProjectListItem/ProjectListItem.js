@@ -4,23 +4,18 @@ import './ProjectListItem.css';
 import github from './../../imgs/github-logo_icon-icons.com_73546.svg';
 import video from './../../imgs/film_projector_cinema_icon-icons.com_66132.svg';
 export default function ProjectListItem(props){
-    const [itemList,setItem] = useState({
-        items:props.projectList,
-        stack:props.stack
-    });
-    let data = JSON.stringify({
-        items:props.projectList,
-        stack:props.stack
-    });
+    const [itemList,setItem] = useState();
     useEffect(()=>{
         setItem({
+            ...itemList,
             items:props.projectList,
             stack:props.stack
         })
-    },[data]);
+    },[props.projectList]);
     return (
         <div className="list-box">
-            {itemList.items.map((item,index)=>(
+            {itemList?
+            itemList.items.map((item,index)=>(
                 <NavLink to={"/project/"+item.id+"/"+props.stack} key={index} className="project-item">
                    
                         <figure className="project-figure">
@@ -40,7 +35,8 @@ export default function ProjectListItem(props){
                         </footer>
                  
                 </NavLink>
-            ))}
+            ))
+            :null}
         </div>
     );
 }

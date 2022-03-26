@@ -1,41 +1,38 @@
-import React,{ useState} from "react";
+import React,{ useEffect, useState} from "react";
 import ProjectListItem from "../../components/ProjectListItem/ProjectListItem";
 import ProjectSelectBar from "../../components/ProjectsSelectBar/ProjectsSelectBar";
 import './Projects.css';
-import projects from "../../Entitys/projects";
 
-export default function Projects(){
-    const [viewProjects,setViewProjects] = useState({
-        view:true,
-        style:{},
-        projectList:projects.fullStack,
-        stack:"full-Stack"
-    });
+export default function Projects(props){
+    const [viewProjects,setViewProjects] = useState();
     const getProjects = (event)=>{
         if(event.target.value === "back-End"){
             setViewProjects(
                 {
+                    ...viewProjects,
                     view:true,
                     style:{top:0,bottom:0},
-                    projectList:projects.backEnd,
+                    projectList:props.lang.backEnd,
                     stack:"back-End"
                 }
             );
         }else if(event.target.value === "front-End"){
             setViewProjects(
                 {
+                    ...viewProjects,
                     view:true,
                     style:{top:0,bottom:0},
-                    projectList:projects.frontEnd,
+                    projectList:props.lang.frontEnd,
                     stack:"front-End"
                 }
             );
         }else{
             setViewProjects(
                 {
+                    ...viewProjects,
                     view:true,
                     style:{top:0,bottom:0},
-                    projectList:projects.fullStack,
+                    projectList:props.lang.fullStack,
                     stack:"full-Stack"
                 }
             );
@@ -55,8 +52,18 @@ export default function Projects(){
             value:"back-End"
         }
     ];
+    useEffect(()=>{
+        setViewProjects({
+            ...viewProjects,
+            view:true,
+            style:{},
+            projectList:props.lang.fullStack,
+            stack:"full-Stack"
+        })
+    },[props.lang])
     return (
         <div className="page">
+            {viewProjects?
             <div className="container" id="containerProject" style={viewProjects.style}>
                 <ProjectSelectBar selectAction={getProjects} options={options}></ProjectSelectBar>
                 {viewProjects.view?
@@ -64,7 +71,8 @@ export default function Projects(){
                     :
                         ""
                 }
-            </div>    
+            </div>
+            :null}
         </div>
     );
 }
