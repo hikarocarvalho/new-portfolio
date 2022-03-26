@@ -8,7 +8,7 @@ export default function LanguageMenu(props){
             <nav className="language-menu">
                 <ul className="language-options">
                     {props.languages.map((item,index)=>(
-                        <button key={index} className="language-option" onClick={props.click}> <li key={index}>{item.name}</li></button>
+                        <button key={index} className="language-option" onClick={props.click}>{item.name}</button>
                     ))}
                 </ul>
             </nav>
