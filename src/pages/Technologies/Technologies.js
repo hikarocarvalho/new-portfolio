@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
-import LanguageMenu from "../../components/LanguageMenu/LanguageMenu";
 import "./Technologies.css";
-import LanguageDetail from "../../components/LanguageDetail/LanguageDetail";
 import ItemTechnologies from "../../components/ItemTechnologies/ItemTechnologies";
 export default function Technologies(props) {
   const [language, setLanguage] = useState();
