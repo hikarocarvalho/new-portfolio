@@ -1,119 +1,21 @@
-const typescript = {en: [
-    {
-      name: "Topics",
-      topic: [
-        {
-          name: "Syntax",
-          checked: false,
-        },
-        {
-          name: "Variables",
-          checked: false,
-        },
-        {
-          name: "Operators",
-          checked: false,
-        },
-        {
-          name: "Conditional Operators",
-          checked: false,
-        },
-        {
-          name: "Loop Operators",
-          checked: false,
-        },
-        {
-          name: "Functions",
-          checked: false,
-        },
-        {
-          name: "OOP",
-          checked: false,
-        },
-        {
-          name: "Class",
-          checked: false,
-        },
-        {
-          name: "Class methods",
-          checked: false,
-        },
-        {
-          name: "Constructors",
-          checked: false,
-        },
-        {
-          name: "Encapsulation",
-          checked: false,
-        },
-        {
-          name: "Polomorphism",
-          checked: false,
-        },
-        {
-          name: "Exceptions",
-          checked: false,
-        }
-      ]
-    },
-  ],
-  br:[
+const typescript = {
+  en: {
+    name:"Certificates",
+    certificates: [
       {
-        name: "Topicos",
-        topic: [
-          {
-            name: "Sintaxe",
-            checked: false,
-          },
-          {
-            name: "Variáveis",
-            checked: false,
-          },
-          {
-            name: "Operadores",
-            checked: false,
-          },
-          {
-            name: "Operadores Codicionais",
-            checked: false,
-          },
-          {
-            name: "Operadores de Loop",
-            checked: false,
-          },
-          {
-            name: "Funções",
-            checked: false,
-          },
-          {
-              name: "POO",
-              checked: false,
-          },
-          {
-            name: "Classe",
-            checked: false,
-          },
-          {
-            name: "Metodos de Classes",
-            checked: false,
-          },
-          {
-            name: "Construtores",
-            checked: false,
-          },
-          {
-            name: "Encapsulamento",
-            checked: false,
-          },
-          {
-            name: "Polimorfismo",
-            checked: false,
-          },
-          {
-            name: "Exceções",
-            checked: false,
-          }
-        ]
+        name: "DIO",
+        link: "https://www.dio.me/certificate/E3415DA1/share",
       },
-    ]};
+    ],
+  },
+  br: {
+    name:"Certificados",
+    certificates: [
+      {
+        name: "DIO",
+        link: "https://www.dio.me/certificate/E3415DA1/share",
+      },
+    ],
+  },
+};
 export default typescript;

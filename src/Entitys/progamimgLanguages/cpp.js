@@ -1,120 +1,24 @@
-const cpp ={en: [
-  {
-    name: "Topics",
-    topic: [
+const cpp = {
+  en: {
+    name:"Certificates",
+    certificates: [
       {
-        name: "Syntax",
-        checked: false,
+        name: "Udemy",
+        link:
+          "https://www.udemy.com/certificate/UC-a36891c1-8275-4ea4-9dd6-f98401ee7205/",
       },
-      {
-        name: "Variables",
-        checked: false,
-      },
-      {
-        name: "Operators",
-        checked: false,
-      },
-      {
-        name: "Conditional Operators",
-        checked: false,
-      },
-      {
-        name: "Loop Operators",
-        checked: false,
-      },
-      {
-        name: "Functions",
-        checked: false,
-      },
-      {
-        name: "OOP",
-        checked: false,
-      },
-      {
-        name: "Class",
-        checked: false,
-      },
-      {
-        name: "Class methods",
-        checked: false,
-      },
-      {
-        name: "Constructors",
-        checked: false,
-      },
-      {
-        name: "Encapsulation",
-        checked: false,
-      },
-      {
-        name: "Polomorphism",
-        checked: false,
-      },
-      {
-        name: "Exceptions",
-        checked: false,
-      }
-    ]
+    ],
   },
-],
-br:[
-    {
-      name: "Topicos",
-      topic: [
-        {
-          name: "Sintaxe",
-          checked: false,
-        },
-        {
-          name: "Variáveis",
-          checked: false,
-        },
-        {
-          name: "Operadores",
-          checked: false,
-        },
-        {
-          name: "Operadores Codicionais",
-          checked: false,
-        },
-        {
-          name: "Operadores de Loop",
-          checked: false,
-        },
-        {
-          name: "Funções",
-          checked: false,
-        },
-        {
-            name: "POO",
-            checked: false,
-        },
-        {
-          name: "Classe",
-          checked: false,
-        },
-        {
-          name: "Metodos de Classes",
-          checked: false,
-        },
-        {
-          name: "Construtores",
-          checked: false,
-        },
-        {
-          name: "Encapsulamento",
-          checked: false,
-        },
-        {
-          name: "Polimorfismo",
-          checked: false,
-        },
-        {
-          name: "Exceções",
-          checked: false,
-        }
-      ]
-    },
-  ]};
+  br: {
+    name:"Certificados",
+    certificates: [
+      {
+        name: "Udemy",
+        link:
+          "https://www.udemy.com/certificate/UC-a36891c1-8275-4ea4-9dd6-f98401ee7205/",
+      },
+    ],
+  },
+};
 
 export default cpp;

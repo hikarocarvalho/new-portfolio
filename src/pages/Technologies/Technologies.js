@@ -1,38 +1,24 @@
-import React,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import LanguageMenu from "../../components/LanguageMenu/LanguageMenu";
-import './Technologies.css';
+import "./Technologies.css";
 import LanguageDetail from "../../components/LanguageDetail/LanguageDetail";
-export default function Technologies(props){
-    const [language,setLanguage] = useState();
-    const setDefaultLanguage = (defaultLanguage)=>{
-        for(let count=0;count<props.lang.length;count++){
-            if(props.lang[count].name === defaultLanguage){
-                setLanguage({
-                    ...language,
-                    ...props.lang[count]
-                });
-            }
-        }
-    }
-    const getSelected = (event)=>{
-        event.preventDefault();
-        const defaultLanguage = event.target.innerHTML;
-        setDefaultLanguage(defaultLanguage);
-    }
-    useEffect(()=>{
-        setLanguage({
-            ...language,
-            ...props.lang[0],
-        })
-    },[props.lang])
-    return (
-        <div className="page technologie">
-            <LanguageMenu click={getSelected} languages={props.lang}/>
-            {language?
-                    <LanguageDetail language={language}/>
-                :
-                    ""
-            }
+import ItemTechnologies from "../../components/ItemTechnologies/ItemTechnologies";
+export default function Technologies(props) {
+  const [language, setLanguage] = useState();
+
+  useEffect(() => {
+    setLanguage({
+      ...language,
+      list : props.lang,
+    });
+  }, [props.lang]);
+  return (
+    <div className="page technologie">
+        <div className="technologie_container">
+            {language
+                ? language.list.map((item, index) => <ItemTechnologies key={index} name={item.name} description={item.roadmap}></ItemTechnologies>)
+                : null}
         </div>
-    );
+    </div>
+  );
 }
