@@ -33,11 +33,11 @@ code {
   height: 100%;
 }
 :root{
-  --backgroundColor:#ffffff;
-  --disable:#e0dfe5;
-  --colorFirst:#ffe28c;
-  --colorSecond:#fe8007;
-  --fontColor:#000000;
+  --backgroundColor:#1d1c21;
+  --disable:#313139;
+  --colorFirst:#4e6d41;
+  --colorSecond:#238204;
+  --fontColor:#ffffff;
 
   --lightBk:#ffffff;
   --lightDisable:#e0dfe5;

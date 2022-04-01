@@ -63,5 +63,6 @@
 
 .menu-icon{
   color: var(--fontColor);
+  position: fixed;
   background-color: rgba(255, 255, 255, 0.74);
 }
