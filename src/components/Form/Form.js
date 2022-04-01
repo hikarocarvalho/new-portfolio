@@ -29,7 +29,7 @@ export default function Form(props){
                 props.inputs[0].type?
                     props.inputs[0].type==="option"?
                         props.onChange?
-                            <Select options={props.inputs} onChange={props.onChange} />
+                            <Select options={props.inputs} onChange={props.onChange} selectId={props.selectId?props.selectId:null}/>
                         :
                             <Select options={props.inputs} />
                     :
