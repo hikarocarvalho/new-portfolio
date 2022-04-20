@@ -12,7 +12,7 @@ const projectsFrontEnd = {
             description:"This project shows one thing I like, using humor",
             github:"https://github.com/hikarocarvalho/Blue_Module_02/tree/main/projects/project01",
             video:"https://www.youtube.com/embed/CSEktaEeNFU",
-            link:"",
+            link:"https://hikarocarvalho.github.io/projects/humor/",
             dependency:[
                 {
                     name:"Html",
@@ -35,7 +35,7 @@ const projectsFrontEnd = {
             description:"This project is a default calculator.",
             github:"https://github.com/hikarocarvalho/Calculator",
             video:"https://www.youtube.com/embed/8yICL_I9aPU",
-            link:"",
+            link:"https://hikarocarvalho.github.io/projects/calculator/",
             dependency:[
                 {
                     name:"Html",
@@ -58,7 +58,7 @@ const projectsFrontEnd = {
             description:"This project is a default timer.",
             github:"https://github.com/hikarocarvalho/Timer",
             video:"https://www.youtube.com/embed/Fpw22v40TOY",
-            link:"",
+            link:"https://hikarocarvalho.github.io/projects/timer/",
             dependency:[
                 {
                     name:"Html",
@@ -79,9 +79,9 @@ const projectsFrontEnd = {
             name:"Css 3d test",
             image:css3d,
             description:"This project is tested CSS 3d properties.",
-            github:"https://github.com/hikarocarvalho/studyingcss3d",
+            github:"https://github.com/hikarocarvalho/Studing_Css_3d",
             video:"https://www.youtube.com/embed/DRVqEpmqH_c",
-            link:"",
+            link:"https://hikarocarvalho.github.io/projects/css3d/",
             dependency:[
                 {
                     name:"Html",
@@ -102,7 +102,7 @@ const projectsFrontEnd = {
             name:"Documentários do Egito",
             image:egypt,
             description:"Este projeto é referente a um site repositório de documentários Egípcios",
-            github:"https://github.com/hikarocarvalho/Project_Egipt_documentarys",
+            github:"https://github.com/hikarocarvalho/Project_Egipt_Documentarys",
             video:"https://www.youtube.com/embed/SRBGOze1KTw",
             link:"",
             dependency:[
@@ -129,7 +129,7 @@ const projectsFrontEnd = {
             description:"Este projeto visa demonstrar algo que gosto em forma de humor",
             github:"https://github.com/hikarocarvalho/Blue_Module_02/tree/main/projects/project01",
             video:"https://www.youtube.com/embed/CSEktaEeNFU",
-            link:"",
+            link:"https://hikarocarvalho.github.io/projects/humor/",
             dependency:[
                 {
                     name:"Html",
@@ -152,7 +152,7 @@ const projectsFrontEnd = {
             description:"Este projeto é referente a uma calculadora Comum",
             github:"https://github.com/hikarocarvalho/Calculator",
             video:"https://www.youtube.com/embed/8yICL_I9aPU",
-            link:"",
+            link:"https://hikarocarvalho.github.io/projects/calculator/",
             dependency:[
                 {
                     name:"Html",
@@ -175,7 +175,7 @@ const projectsFrontEnd = {
             description:"Este projeto é referente a uma timer Comum",
             github:"https://github.com/hikarocarvalho/Timer",
             video:"https://www.youtube.com/embed/Fpw22v40TOY",
-            link:"",
+            link:"https://hikarocarvalho.github.io/projects/timer/",
             dependency:[
                 {
                     name:"Html",
@@ -196,9 +196,9 @@ const projectsFrontEnd = {
             name:"Css 3d test",
             image:css3d,
             description:"Este projeto é referente a um teste para aplicar propriedades 3d aos componentes",
-            github:"https://github.com/hikarocarvalho/studyingcss3d",
+            github:"https://github.com/hikarocarvalho/Studing_Css_3d",
             video:"https://www.youtube.com/embed/DRVqEpmqH_c",
-            link:"",
+            link:"https://hikarocarvalho.github.io/projects/css3d/",
             dependency:[
                 {
                     name:"Html",
@@ -219,7 +219,7 @@ const projectsFrontEnd = {
             name:"Documentários do Egito",
             image:egypt,
             description:"Este projeto é referente a um site repositório de documentários Egípcios",
-            github:"https://github.com/hikarocarvalho/Project_Egipt_documentarys",
+            github:"https://github.com/hikarocarvalho/Project_Egipt_Documentarys",
             video:"https://www.youtube.com/embed/SRBGOze1KTw",
             link:"",
             dependency:[
