@@ -25,9 +25,9 @@ const projectsBackEnd = {
             name:"Interactive Game",
             image:interativeGame,
             description:"This project is a terror with suspense game",
-            github:"https://github.com/hikarocarvalho/ProjetoBlue_05",
+            github:"https://github.com/hikarocarvalho/Interactive_Game",
             video:"https://www.youtube.com/embed/fYt06-tc6mg",
-            link:"https://github.com/hikarocarvalho/ProjetoBlue_05",
+            link:"https://github.com/hikarocarvalho/Interactive_Game",
             dependency:[
                 {
                     name:"Python",
@@ -106,9 +106,9 @@ const projectsBackEnd = {
             name:"Jogo Interativo",
             image:interativeGame,
             description:"Neste Projeto Foi construido como um jogo de Terror e suspense",
-            github:"https://github.com/hikarocarvalho/ProjetoBlue_05",
+            github:"https://github.com/hikarocarvalho/Interactive_Game",
             video:"https://www.youtube.com/embed/fYt06-tc6mg",
-            link:"https://github.com/hikarocarvalho/ProjetoBlue_05",
+            link:"https://github.com/hikarocarvalho/Interactive_Game",
             dependency:[
                 {
                     name:"Python",
