@@ -7,17 +7,21 @@ import kotlin from "./kotlin.svg";
 import markdown from "./markdown.svg";
 import python from "./python.svg";
 import typescript from "./typescript.svg";
+import nodejs from "./nodejs.svg";
+import react from "./react.svg";
 
 const icons = {
   "C++": cpp,
   "C#": csharp,
-  Css: css,
-  Html: html,
-  JavaScript: javascript,
-  Kotlin: kotlin,
-  MarkDown: markdown,
-  Python: python,
-  TypeScript: typescript,
+  "Css": css,
+  "Html": html,
+  "JavaScript": javascript,
+  "Kotlin": kotlin,
+  "MarkDown": markdown,
+  "Python": python,
+  "TypeScript": typescript,
+  "Nodejs": nodejs,
+  "React": react,
 };
 
 export default icons;

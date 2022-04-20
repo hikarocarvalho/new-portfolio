@@ -10,6 +10,7 @@ const projectsFullStack = {
             github:"https://github.com/users/hikarocarvalho/projects/1",
             video:"https://www.youtube.com/embed/Gbt9JnNDh20",
             link:"https://github.com/users/hikarocarvalho/projects/1",
+            technologies:["Nodejs","React","Css"],
             dependency:[
                 {
                     name:"ReactJs",
@@ -29,6 +30,7 @@ const projectsFullStack = {
             github:"https://github.com/hikarocarvalho/Pet_Sister",
             video:"https://www.youtube.com/embed/nScMMyiVeTs",
             link:"https://github.com/hikarocarvalho/Pet_Sister",
+            technologies:["Python"],
             dependency:[
                 {
                     name:"Python",
@@ -51,6 +53,7 @@ const projectsFullStack = {
             github:"https://github.com/users/hikarocarvalho/projects/1",
             video:"https://www.youtube.com/embed/Gbt9JnNDh20",
             link:"https://github.com/users/hikarocarvalho/projects/1",
+            technologies:["Nodejs","React","Css"],
             dependency:[
                 {
                     name:"ReactJs",
@@ -70,6 +73,7 @@ const projectsFullStack = {
             github:"https://github.com/hikarocarvalho/Pet_Sister",
             video:"https://www.youtube.com/embed/nScMMyiVeTs",
             link:"https://github.com/hikarocarvalho/Pet_Sister",
+            technologies:["Python"],
             dependency:[
                 {
                     name:"Python",

@@ -13,6 +13,7 @@ const projectsFrontEnd = {
             github:"https://github.com/hikarocarvalho/Blue_Module_02/tree/main/projects/project01",
             video:"https://www.youtube.com/embed/CSEktaEeNFU",
             link:"https://hikarocarvalho.github.io/projects/humor/",
+            technologies:["Html","Css","JavaScript"],
             dependency:[
                 {
                     name:"Html",
@@ -36,6 +37,7 @@ const projectsFrontEnd = {
             github:"https://github.com/hikarocarvalho/Calculator",
             video:"https://www.youtube.com/embed/8yICL_I9aPU",
             link:"https://hikarocarvalho.github.io/projects/calculator/",
+            technologies:["Html","Css","JavaScript"],
             dependency:[
                 {
                     name:"Html",
@@ -59,6 +61,7 @@ const projectsFrontEnd = {
             github:"https://github.com/hikarocarvalho/Timer",
             video:"https://www.youtube.com/embed/Fpw22v40TOY",
             link:"https://hikarocarvalho.github.io/projects/timer/",
+            technologies:["Html","Css","JavaScript"],
             dependency:[
                 {
                     name:"Html",
@@ -82,6 +85,7 @@ const projectsFrontEnd = {
             github:"https://github.com/hikarocarvalho/Studing_Css_3d",
             video:"https://www.youtube.com/embed/DRVqEpmqH_c",
             link:"https://hikarocarvalho.github.io/projects/css3d/",
+            technologies:["Html","Css","JavaScript"],
             dependency:[
                 {
                     name:"Html",
@@ -104,7 +108,8 @@ const projectsFrontEnd = {
             description:"Este projeto é referente a um site repositório de documentários Egípcios",
             github:"https://github.com/hikarocarvalho/Project_Egipt_Documentarys",
             video:"https://www.youtube.com/embed/SRBGOze1KTw",
-            link:"",
+            link:"https://github.com/hikarocarvalho/Project_Egipt_Documentarys",
+            technologies:["React"],
             dependency:[
                 {
                     name:"React",
@@ -130,6 +135,7 @@ const projectsFrontEnd = {
             github:"https://github.com/hikarocarvalho/Blue_Module_02/tree/main/projects/project01",
             video:"https://www.youtube.com/embed/CSEktaEeNFU",
             link:"https://hikarocarvalho.github.io/projects/humor/",
+            technologies:["Html","Css","JavaScript"],
             dependency:[
                 {
                     name:"Html",
@@ -153,6 +159,7 @@ const projectsFrontEnd = {
             github:"https://github.com/hikarocarvalho/Calculator",
             video:"https://www.youtube.com/embed/8yICL_I9aPU",
             link:"https://hikarocarvalho.github.io/projects/calculator/",
+            technologies:["Html","Css","JavaScript"],
             dependency:[
                 {
                     name:"Html",
@@ -176,6 +183,7 @@ const projectsFrontEnd = {
             github:"https://github.com/hikarocarvalho/Timer",
             video:"https://www.youtube.com/embed/Fpw22v40TOY",
             link:"https://hikarocarvalho.github.io/projects/timer/",
+            technologies:["Html","Css","JavaScript"],
             dependency:[
                 {
                     name:"Html",
@@ -199,6 +207,7 @@ const projectsFrontEnd = {
             github:"https://github.com/hikarocarvalho/Studing_Css_3d",
             video:"https://www.youtube.com/embed/DRVqEpmqH_c",
             link:"https://hikarocarvalho.github.io/projects/css3d/",
+            technologies:["Html","Css","JavaScript"],
             dependency:[
                 {
                     name:"Html",
@@ -222,6 +231,7 @@ const projectsFrontEnd = {
             github:"https://github.com/hikarocarvalho/Project_Egipt_Documentarys",
             video:"https://www.youtube.com/embed/SRBGOze1KTw",
             link:"",
+            technologies:["React"],
             dependency:[
                 {
                     name:"React",

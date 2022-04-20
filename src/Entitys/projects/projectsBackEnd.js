@@ -13,6 +13,7 @@ const projectsBackEnd = {
             github:"https://github.com/hikarocarvalho/Blue_Module_01/blob/main/projetos/Projeto_04_Simulador_de_Votacao.py",
             video:"https://www.youtube.com/embed/KfrmZBAGzUQ",
             link:"https://github.com/hikarocarvalho/Blue_Module_01/blob/main/projetos/Projeto_04_Simulador_de_Votacao.py",
+            technologies:["Python"],
             dependency:[
                 {
                     name:"Python",
@@ -28,6 +29,7 @@ const projectsBackEnd = {
             github:"https://github.com/hikarocarvalho/Interactive_Game",
             video:"https://www.youtube.com/embed/fYt06-tc6mg",
             link:"https://github.com/hikarocarvalho/Interactive_Game",
+            technologies:["Python"],
             dependency:[
                 {
                     name:"Python",
@@ -47,6 +49,7 @@ const projectsBackEnd = {
             github:"https://github.com/hikarocarvalho/Blue_Module_01/blob/main/projetos/Projeto_01_%E2%80%93_Detetive.ipynb",
             video:"https://www.youtube.com/embed/P_NrJzLgV8A",
             link:"",
+            technologies:["Python"],
             dependency:[
                 {
                     name:"Python",
@@ -62,6 +65,7 @@ const projectsBackEnd = {
             github:"https://github.com/hikarocarvalho/Blue_Module_01/blob/main/projetos/Projeto_03_Roleta_de_dados_final.py",
             video:"https://www.youtube.com/embed/eajNWVK5eQo",
             link:"",
+            technologies:["Python"],
             dependency:[
                 {
                     name:"Python",
@@ -77,6 +81,7 @@ const projectsBackEnd = {
             github:"https://github.com/hikarocarvalho/Blue_Module_01/blob/main/projetos/Projeto_02_jogo_Jokenpo.py",
             video:"https://www.youtube.com/embed/kOi3qBlhwZE",
             link:"",
+            technologies:["Python"],
             dependency:[
                 {
                     name:"Python",
@@ -94,6 +99,7 @@ const projectsBackEnd = {
             github:"https://github.com/hikarocarvalho/Blue_Module_01/blob/main/projetos/Projeto_04_Simulador_de_Votacao.py",
             video:"https://www.youtube.com/embed/KfrmZBAGzUQ",
             link:"https://github.com/hikarocarvalho/Blue_Module_01/blob/main/projetos/Projeto_04_Simulador_de_Votacao.py",
+            technologies:["Python"],
             dependency:[
                 {
                     name:"Python",
@@ -109,6 +115,7 @@ const projectsBackEnd = {
             github:"https://github.com/hikarocarvalho/Interactive_Game",
             video:"https://www.youtube.com/embed/fYt06-tc6mg",
             link:"https://github.com/hikarocarvalho/Interactive_Game",
+            technologies:["Python"],
             dependency:[
                 {
                     name:"Python",
@@ -128,6 +135,7 @@ const projectsBackEnd = {
             github:"https://github.com/hikarocarvalho/Blue_Module_01/blob/main/projetos/Projeto_01_%E2%80%93_Detetive.ipynb",
             video:"https://www.youtube.com/embed/P_NrJzLgV8A",
             link:"",
+            technologies:["Python"],
             dependency:[
                 {
                     name:"Python",
@@ -143,6 +151,7 @@ const projectsBackEnd = {
             github:"https://github.com/hikarocarvalho/Blue_Module_01/blob/main/projetos/Projeto_03_Roleta_de_dados_final.py",
             video:"https://www.youtube.com/embed/eajNWVK5eQo",
             link:"",
+            technologies:["Python"],
             dependency:[
                 {
                     name:"Python",
@@ -158,6 +167,7 @@ const projectsBackEnd = {
             github:"https://github.com/hikarocarvalho/Blue_Module_01/blob/main/projetos/Projeto_02_jogo_Jokenpo.py",
             video:"https://www.youtube.com/embed/kOi3qBlhwZE",
             link:"",
+            technologies:["Python"],
             dependency:[
                 {
                     name:"Python",
