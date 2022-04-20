@@ -3,7 +3,7 @@ const myself = {
     {
       title: "About Me",
       text: [
-        "I'm Hikaro Fernandes de Carvalho, I'm 28 years old. I'm very proactive.  I like a job well done. I'm spontaneous, a bit boring sometimes, but having a little patience, I can handle it. 'HAHAHAHA'!",
+        "I'm Hikaro Fernandes de Carvalho, I'm 29 years old. I'm very proactive.  I like a job well done. I'm spontaneous, a bit boring sometimes, but having a little patience, I can handle it. 'HAHAHAHA'!",
       ],
     },
     {
@@ -33,7 +33,7 @@ const myself = {
     {
       title: "Sobre Mim",
       text: [
-        "Eu sou Hikaro Fernandes de Carvalho, tenho 28 anos. Sou muito proativo e gosto de realizar muito bem minhas tarefas. Sou muito espontâneo e meio chato as vezes. Mas tendo um pouco de paciência podem me suportar! 'kkkkkkkk'!",
+        "Eu sou Hikaro Fernandes de Carvalho, tenho 29 anos. Sou muito proativo e gosto de realizar muito bem minhas tarefas. Sou muito espontâneo e meio chato as vezes. Mas tendo um pouco de paciência podem me suportar! 'kkkkkkkk'!",
       ],
     },
     {
