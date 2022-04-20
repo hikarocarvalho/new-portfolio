@@ -7,8 +7,7 @@ const projectsFullStack = {
             name:"Project manager",
             image:projectManager,
             description:"This project is a system to manage project steps.",
-            github:"https://github.com/hikarocarvalho/module-03-final-project",
-            github2:"https://github.com/hikarocarvalho/module-03-node-final-project",
+            github:"https://github.com/users/hikarocarvalho/projects/1",
             video:"https://www.youtube.com/embed/Gbt9JnNDh20",
             link:"",
             dependency:[
