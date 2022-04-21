@@ -32,11 +32,6 @@
     box-shadow: 0 0 5px 0.01px var(--colorSecond);
     border-radius: 10px 10px 0 0;
 }
-.front-end .interface{
-    
-}
-.back-end .interface{
-}
 .bar-title{
     width: 100%;
     height: 10%;
@@ -62,4 +57,7 @@
     transform: rotateZ(-20deg);
     border-top: 5px dashed var(--colorSecond);
     border-bottom: 5px dashed var(--colorSecond);
+}
+.top-bar{
+    padding:0.5em 1em 0.5em 1em;
 }
