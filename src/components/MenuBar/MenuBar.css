@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     width: 102%;
-    height: auto;
+    height: 100%;
     transition-duration: 1s;
     color: var(--colorSecond);
 }
@@ -31,7 +31,7 @@
 }
 .photo{
     margin-top: 4%;
-    width: 40%;
+    width: 30%;
     height: auto;
     border-radius: 50%;
     border:2px solid var(--colorSecond);
