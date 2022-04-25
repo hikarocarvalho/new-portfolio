@@ -3,6 +3,8 @@ import calculator from "../../imgs/frontEnd/calculator.png";
 import timer from "../../imgs/frontEnd/timer.png";
 import css3d from "../../imgs/frontEnd/css3d.png";
 import egypt from "../../imgs/frontEnd/egypt.png";
+import hashMarker from "../../imgs/frontEnd/hashMarker.png";
+
 const projectsFrontEnd = {
     en:[
         {
@@ -128,12 +130,12 @@ const projectsFrontEnd = {
         {
             id:6,
             name:"Hash Marker Game",
-            image:egypt,
+            image:hashMarker,
             description:"This project it's related a game 'Hash Marker'.",
             github:"https://github.com/hikarocarvalho/Orbi_Web_Games_Developer_Dio_Game_Hash_Mark",
             video:"https://www.youtube.com/embed/kBDzqeiOcZc",
-            link:"http://127.0.0.1:5500/Orbi_Web_Games_Developer_Dio_Game_Hash_Mark/index.html",
-            technologies:["Html","Css","Javascript"],
+            link:"https://hikarocarvalho.github.io/projects/hashMarker/",
+            technologies:["Html","Css","JavaScript"],
             dependency:[
                 {
                     name:"Html",
@@ -274,12 +276,12 @@ const projectsFrontEnd = {
         {
             id:6,
             name:"Jogo da Velha",
-            image:egypt,
+            image:hashMarker,
             description:"Este projeto é relacionado a um jogo famoso o 'Jogo da Velha'.",
             github:"https://github.com/hikarocarvalho/Orbi_Web_Games_Developer_Dio_Game_Hash_Mark",
             video:"https://www.youtube.com/embed/kBDzqeiOcZc",
-            link:"http://127.0.0.1:5500/Orbi_Web_Games_Developer_Dio_Game_Hash_Mark/index.html",
-            technologies:["Html","Css","Javascript"],
+            link:"https://hikarocarvalho.github.io/projects/hashMarker/",
+            technologies:["Html","Css","JavaScript"],
             dependency:[
                 {
                     name:"Html",
