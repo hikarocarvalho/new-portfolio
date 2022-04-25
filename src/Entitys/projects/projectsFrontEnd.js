@@ -103,9 +103,9 @@ const projectsFrontEnd = {
         },
         {
             id:5,
-            name:"Documentários do Egito",
+            name:"Egypt Documentary",
             image:egypt,
-            description:"Este projeto é referente a um site repositório de documentários Egípcios",
+            description:"This project is related to one repository for egypt documentarys",
             github:"https://github.com/hikarocarvalho/Project_Egipt_Documentarys",
             video:"https://www.youtube.com/embed/SRBGOze1KTw",
             link:"https://github.com/hikarocarvalho/Project_Egipt_Documentarys",
@@ -114,6 +114,30 @@ const projectsFrontEnd = {
                 {
                     name:"React",
                     use:"Used to manage and create the frontEnd."
+                },
+                {
+                    name:"Css",
+                    use:"Used to add style in all structure components."
+                },
+                {
+                    name:"Javascript",
+                    use:"Used like the base programming language."
+                }
+            ]
+        },
+        {
+            id:6,
+            name:"Hash Marker Game",
+            image:egypt,
+            description:"This project it's related a game 'Hash Marker'.",
+            github:"https://github.com/hikarocarvalho/Orbi_Web_Games_Developer_Dio_Game_Hash_Mark",
+            video:"https://www.youtube.com/embed/kBDzqeiOcZc",
+            link:"http://127.0.0.1:5500/Orbi_Web_Games_Developer_Dio_Game_Hash_Mark/index.html",
+            technologies:["Html","Css","Javascript"],
+            dependency:[
+                {
+                    name:"Html",
+                    use:"Used to the Front-End Structure."
                 },
                 {
                     name:"Css",
@@ -244,6 +268,30 @@ const projectsFrontEnd = {
                 {
                     name:"Javascript",
                     use:"Usado na linguagem base"
+                }
+            ]
+        },
+        {
+            id:6,
+            name:"Jogo da Velha",
+            image:egypt,
+            description:"Este projeto é relacionado a um jogo famoso o 'Jogo da Velha'.",
+            github:"https://github.com/hikarocarvalho/Orbi_Web_Games_Developer_Dio_Game_Hash_Mark",
+            video:"https://www.youtube.com/embed/kBDzqeiOcZc",
+            link:"http://127.0.0.1:5500/Orbi_Web_Games_Developer_Dio_Game_Hash_Mark/index.html",
+            technologies:["Html","Css","Javascript"],
+            dependency:[
+                {
+                    name:"Html",
+                    use:"Usado para criar a estrutura do Front-end."
+                },
+                {
+                    name:"Css",
+                    use:"Utilizado para estilizar o game."
+                },
+                {
+                    name:"Javascript",
+                    use:"Utilizado como linguagem de programação."
                 }
             ]
         }
