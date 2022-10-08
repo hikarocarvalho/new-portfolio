@@ -29,7 +29,7 @@ const projectsFrontEnd = {
             ]
         },
         {
-            id:1,
+            id:2,
             name:"Humor Project",
             image:smile,
             description:"This project shows one thing I like, using humor",
@@ -53,7 +53,7 @@ const projectsFrontEnd = {
             ]
         },
         {
-            id:2,
+            id:3,
             name:"Calculator",
             image:calculator,
             description:"This project is a default calculator.",
@@ -77,7 +77,7 @@ const projectsFrontEnd = {
             ]
         },
         {
-            id:3,
+            id:4,
             name:"Timer",
             image:timer,
             description:"This project is a default timer.",
@@ -101,7 +101,7 @@ const projectsFrontEnd = {
             ]
         },
         {
-            id:4,
+            id:5,
             name:"Css 3d test",
             image:css3d,
             description:"This project is tested CSS 3d properties.",
@@ -125,7 +125,7 @@ const projectsFrontEnd = {
             ]
         },
         {
-            id:5,
+            id:6,
             name:"Egypt Documentary",
             image:egypt,
             description:"This project is related to one repository for egypt documentarys",
@@ -149,7 +149,7 @@ const projectsFrontEnd = {
             ]
         },
         {
-            id:6,
+            id:7,
             name:"Hash Marker Game",
             image:hashMarker,
             description:"This project it's related a game 'Hash Marker'.",
