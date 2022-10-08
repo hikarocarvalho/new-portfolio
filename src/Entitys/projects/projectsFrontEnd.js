@@ -1,4 +1,5 @@
 import smile from "../../imgs/frontEnd/humor.png";
+import landing from "../../imgs/frontEnd/landingPage.png"
 import calculator from "../../imgs/frontEnd/calculator.png";
 import timer from "../../imgs/frontEnd/timer.png";
 import css3d from "../../imgs/frontEnd/css3d.png";
@@ -7,6 +8,26 @@ import hashMarker from "../../imgs/frontEnd/hashMarker.png";
 
 const projectsFrontEnd = {
     en:[
+        {
+            id:1,
+            name:"Landing Page Project",
+            image:landing,
+            description:"This project aims to demonstrate a landing page made by me",
+            github:"https://github.com/hikarocarvalho/landing_page",
+            video:"https://www.youtube.com/embed/j1VagZC9nNk",
+            link:"https://hikarocarvalho.github.io/projects/landing_page/",
+            technologies:["Html","Css"],
+            dependency:[
+                {
+                    name:"Html",
+                    use:"Used in the basic structure."
+                },
+                {
+                    name:"Css",
+                    use:"Used to add style in all structure components."
+                },
+            ]
+        },
         {
             id:1,
             name:"Humor Project",
@@ -155,6 +176,26 @@ const projectsFrontEnd = {
     br:[
         {
             id:1,
+            name:"Projeto Landing Page",
+            image:landing,
+            description:"Este projeto visa demonstrar uma landing page feita por mim",
+            github:"https://github.com/hikarocarvalho/landing_page",
+            video:"https://www.youtube.com/embed/j1VagZC9nNk",
+            link:"https://hikarocarvalho.github.io/projects/landing_page/",
+            technologies:["Html","Css"],
+            dependency:[
+                {
+                    name:"Html",
+                    use:"Usado na estrutura básica"
+                },
+                {
+                    name:"Css",
+                    use:"Usado na estrutura para estilização"
+                }
+            ]
+        },
+        {
+            id:2,
             name:"Projeto de Humor",
             image:smile,
             description:"Este projeto visa demonstrar algo que gosto em forma de humor",
@@ -178,7 +219,7 @@ const projectsFrontEnd = {
             ]
         },
         {
-            id:2,
+            id:3,
             name:"Calculadora",
             image:calculator,
             description:"Este projeto é referente a uma calculadora Comum",
@@ -202,7 +243,7 @@ const projectsFrontEnd = {
             ]
         },
         {
-            id:3,
+            id:4,
             name:"Timer",
             image:timer,
             description:"Este projeto é referente a uma timer Comum",
@@ -226,7 +267,7 @@ const projectsFrontEnd = {
             ]
         },
         {
-            id:4,
+            id:5,
             name:"Css 3d test",
             image:css3d,
             description:"Este projeto é referente a um teste para aplicar propriedades 3d aos componentes",
@@ -250,7 +291,7 @@ const projectsFrontEnd = {
             ]
         },
         {
-            id:5,
+            id:6,
             name:"Documentários do Egito",
             image:egypt,
             description:"Este projeto é referente a um site repositório de documentários Egípcios",
@@ -274,7 +315,7 @@ const projectsFrontEnd = {
             ]
         },
         {
-            id:6,
+            id:7,
             name:"Jogo da Velha",
             image:hashMarker,
             description:"Este projeto é relacionado a um jogo famoso o 'Jogo da Velha'.",
