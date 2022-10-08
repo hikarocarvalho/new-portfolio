@@ -9,11 +9,13 @@ import kotlin from "./progamimgLanguages/kotlin";
 import markdown from "./progamimgLanguages/markdown";
 import python from "./progamimgLanguages/python";
 import typescript from "./progamimgLanguages/typescript";
+import gdscript from "./progamimgLanguages/gdscript";
 //topics
 import cppTopic from "./learningTopics/cppTopic";
 import csharpTopic from "./learningTopics/csharpTopic";
 import cssTopic from "./learningTopics/cssTopic";
 //import gdscriptTopic from "./learningTopics/gdscriptTopic";
+import gdscriptTopic from "./learningTopics/gdscriptTopic";
 import htmlTopic from "./learningTopics/htmlTopic";
 import javascriptTopic from "./learningTopics/javascriptTopic";
 import kotlinTopic from "./learningTopics/kotlinTopic";
@@ -48,11 +50,11 @@ const programingLanguages = {en:[
         roadmap:csharp.en,
         topics:csharpTopic
     },
-    /*{
-        name:"GDScript",
-        roadmap:gdscript,
+    {
+        name:"Godot",
+        roadmap:gdscript.en,
         topics:gdscriptTopic
-    },*/
+    },
     {
         name:"TypeScript",
         roadmap:typescript.en,
@@ -100,11 +102,11 @@ br:[
         roadmap:csharp.br,
         topics:csharpTopic
     },
-    /*{
+    {
         name:"GDScript",
-        roadmap:gdscript,
+        roadmap:gdscript.br,
         topics:gdscriptTopic
-    },*/
+    },
     {
         name:"TypeScript",
         roadmap:typescript.br,

@@ -9,6 +9,7 @@ import python from "./python.svg";
 import typescript from "./typescript.svg";
 import nodejs from "./nodejs.svg";
 import react from "./react.svg";
+import godot from "./godot.svg";
 
 const icons = {
   "C++": cpp,
@@ -22,6 +23,7 @@ const icons = {
   "TypeScript": typescript,
   "Nodejs": nodejs,
   "React": react,
+  "godot": godot,
 };
 
 export default icons;

@@ -9,7 +9,7 @@ export default function ProjectView(props){
         let defaultProject;
         if(!project){
             defaultProject = (stack==="back-End"?props.lang.backEnd
-            :stack==="front-End"?props.lang.frontEnd
+            :stack==="front-End"?props.lang.frontEnd:stack==="game"?props.lang.game
             :props.lang.fullStack)
         }
         for(let count=0;count<defaultProject.length;count++){

@@ -26,7 +26,17 @@ export default function Projects(props){
                     stack:"front-End"
                 }
             );
-        }else{
+        }else if(event.target.value === "game"){
+            setViewProjects(
+                {
+                    ...viewProjects,
+                    view:true,
+                    style:{top:0,bottom:0},
+                    projectList:props.lang.game,
+                    stack:"game"
+                }
+            );
+        }else {
             setViewProjects(
                 {
                     ...viewProjects,
@@ -50,6 +60,10 @@ export default function Projects(props){
         {
             name:"Back-End",
             value:"back-End"
+        },
+        {
+            name:"Games",
+            value:"game"
         }
     ];
     useEffect(()=>{
