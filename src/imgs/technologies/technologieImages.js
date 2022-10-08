@@ -23,7 +23,7 @@ const icons = {
   "TypeScript": typescript,
   "Nodejs": nodejs,
   "React": react,
-  "godot": godot,
+  "Godot": godot,
 };
 
 export default icons;
