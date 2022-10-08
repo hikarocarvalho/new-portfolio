@@ -9,7 +9,7 @@ const projectsGames = {
             description:"In this game, you go to try to get flowers and not spiders.",
             github:"https://github.com/hikarocarvalho/Godot_Udemy_Course_BeeHoney",
             video:"https://www.youtube.com/embed/oyvyV8oE_QE",
-            link:"https://github.com/users/hikarocarvalho/projects/1https://hikarocarvalho.github.io/projects/beeHoney/beehoney.html",
+            link:"https://hikarocarvalho.github.io/projects/beeHoney/beehoney.html",
             technologies:["Godot"],
             dependency:[
                 {
@@ -28,7 +28,7 @@ const projectsGames = {
             description:"Neste jogo, você irá tentar pegar flores a não pegar aranhas.",
             github:"https://github.com/hikarocarvalho/Godot_Udemy_Course_BeeHoney",
             video:"https://www.youtube.com/embed/oyvyV8oE_QE",
-            link:"https://github.com/users/hikarocarvalho/projects/1https://hikarocarvalho.github.io/projects/beeHoney/beehoney.html",
+            link:"https://hikarocarvalho.github.io/projects/beeHoney/beehoney.html",
             technologies:["Godot"],
             dependency:[
                 {
