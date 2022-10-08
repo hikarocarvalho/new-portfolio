@@ -6,7 +6,7 @@ export default function Topics(props){
     const [topics,setTopics] = useState(props.topics);
     useEffect(()=>{
         setTopics(props.topics);
-    },[]);
+    },[props.topics]);
     return (
         <section className="topics-box">
             {topics?

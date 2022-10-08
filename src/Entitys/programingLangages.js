@@ -26,6 +26,11 @@ import typescriptTopic from "./learningTopics/typescriptTopic";
 
 const programingLanguages = {en:[
     {
+        name:"Html",
+        roadmap:html.en,
+        topics:htmlTopic
+    },
+    {
         name:"C++",
         roadmap:cpp.en,
         topics:cppTopic
@@ -66,17 +71,18 @@ const programingLanguages = {en:[
         topics:markdownTopic
     },
     {
-        name:"Html",
-        roadmap:html.en,
-        topics:htmlTopic
-    },
-    {
         name:"Css",
         roadmap:css.en,
         topics:cssTopic
     },
 ],
 br:[
+
+    {
+        name:"Html",
+        roadmap:html.br,
+        topics:htmlTopic
+    },
     {
         name:"C++",
         roadmap:cpp.br,
@@ -116,11 +122,6 @@ br:[
         name:"MarkDown",
         roadmap:markdown.br,
         topics:markdownTopic
-    },
-    {
-        name:"Html",
-        roadmap:html.br,
-        topics:htmlTopic
     },
     {
         name:"Css",
