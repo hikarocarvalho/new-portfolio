@@ -19,6 +19,15 @@ const htmlTopic = [
                 name:"Aula 03 - Semântica Pt 01",
                 link:"https://www.youtube.com/embed/AHSGbUN65QU"
             },
+            {
+                name:"Aula 04 - Semântica Pt 02",
+                link:"https://www.youtube.com/embed/qdqlnG-B84M"
+            },
+            {
+                name:"Aula 05 - Tabelas",
+                link:"https://www.youtube.com/embed/l5v3C8kAp2o"
+            },
+            
         ]
     },
 ];
